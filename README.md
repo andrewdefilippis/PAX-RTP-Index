@@ -4,10 +4,10 @@
 
 ----
 
-This repository contains RTP/PAX data in a machine-readable format.  The values are used in Solo/Autocross events.
+This repository contains RTP/PAX data in a machine-readable format.  The values are used in SCCA Solo/Autocross events.
 
 * **Available File Types:**
   * JSON
   * YAML
 
-*The RTP/PAX data has been sourced from [Solotime - PAX/RTP Index](http://solotime.info/pax/) through the use of automated scripts or manual input.*
+*The RTP/PAX data has been sourced from [Solotime - PAX/RTP Index](http://solotime.info/pax/) - hosted by [Solo Performance Specialties, LLC.](https://www.soloperformance.com/)*
