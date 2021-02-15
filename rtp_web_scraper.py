@@ -54,7 +54,7 @@ def main():
     now_year = datetime.now().year
 
     earliest_rtp_year = 1995
-    base_page = "http://solotime.info/pax/"
+    base_page = "https://solotime.info/pax/"
     rtp_html = "rtp{}.html"
 
     # From the /rtp2021.html document as of 2021-02-15:
