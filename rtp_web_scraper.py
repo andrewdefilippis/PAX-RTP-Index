@@ -35,7 +35,7 @@ def html_parser(data, year):
     for row in table.find_all("tr"):
         for td in row.find_all("td"):
             try:
-                if match('^[A-Za-z]', td.get_text()):
+                if match('^\s*[A-Za-z]', td.get_text()):
                     text = td.get_text().strip()
                     json_output[year][text] = None
                 elif match('^[0-9]', td.get_text()):
@@ -62,7 +62,7 @@ def main():
     # Please update your links and bookmarks to http://solotime.info/pax/
     # This corrected link will then be correct every year and always have the newest numbers!
     if year is None or year == now_year:
-        year = None
+        year = now_year
         url = base_page
     elif year == now_year + 1:
         # Allow specification of the next year for when RTP data is released before January 1st of said year.
@@ -74,10 +74,6 @@ def main():
         raise ValueError("Value supplied for year must be from {} to {}.".format(earliest_rtp_year, now_year))
 
     data = urlopen(url).read()
-
-    if data is None:
-        raise ValueError("RTP page for {} year was not found".format(year))
-
     json_output = html_parser(data, year)
 
     formatted_json = json.dumps(json_output, indent=2, sort_keys=True)
