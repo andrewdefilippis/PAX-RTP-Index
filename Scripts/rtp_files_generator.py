@@ -83,7 +83,7 @@ def main():
     # dump dict to categorized json file
     formatted_json = json.dumps(classes_dict, indent=2, sort_keys=True)
     try:
-        with open("./rtp.json".format(year), "r") as json_file:
+        with open("./rtp.json", "r") as json_file:
             merge_schema = {
                 "properties": {
                     "SoloClasses": {
@@ -107,17 +107,17 @@ def main():
             merger = Merger(merge_schema)
             merged_file = merger.merge(json.load(json_file), classes_dict)
     except FileNotFoundError as e:
-        with open("./rtp.json".format(year), "w") as json_file:
+        with open("./rtp.json", "w") as json_file:
             pass
     except json.decoder.JSONDecodeError as e:
         pass
-    with open("./rtp.json".format(year), "w") as json_file:
+    with open("./rtp.json", "w") as json_file:
         try:
             json_output = json.dumps(merged_file, indent=2, sort_keys=True)
             json_file.write(json_output)
         except UnboundLocalError as e:
             json_file.write(formatted_json)
-    with open("./rtp.yaml".format(year), "w") as yaml_file:
+    with open("./rtp.yaml", "w") as yaml_file:
         try:
             yaml_file.write("---\n")
             yaml_file.write(yaml.dump(json.loads(json_output)))
