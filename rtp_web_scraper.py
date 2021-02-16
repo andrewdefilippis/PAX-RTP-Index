@@ -20,7 +20,7 @@ def html_parser(data, year):
     # Confirm that the page being viewed is the same year being requested
     for header in h1_tags:
         h_text = header.get_text()
-        if match('^[0-9]{4} PAX/RTP Index', h_text):
+        if match('^[0-9]{4}.*RTP Index', h_text):
             h_year = h_text.split(' ')[0]
 
             if year is not None and not match("^{}".format(year), h_text):
@@ -39,7 +39,7 @@ def html_parser(data, year):
                     text = td.get_text().strip()
                     json_output[year][text] = None
                 elif match('^[0-9]', td.get_text()):
-                    json_output[year][text] = td.get_text().strip()
+                    json_output[year][text] = float(td.get_text().strip())
             except Exception as e:
                 continue
 
@@ -54,7 +54,7 @@ def main():
     now_year = datetime.now().year
 
     earliest_rtp_year = 1995
-    base_page = "https://solotime.info/pax/"
+    base_page = "https://www.solotime.info/pax/"
     rtp_html = "rtp{}.html"
 
     # From the /rtp2021.html document as of 2021-02-15:
