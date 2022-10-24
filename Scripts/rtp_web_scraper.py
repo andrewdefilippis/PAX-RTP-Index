@@ -39,7 +39,7 @@ def html_parser(data, year):
                     text = td.get_text().strip().strip("*").split(' ')[0]
                     json_output[year][text] = None
                 elif match('^\s*[0-9]', td.get_text()):
-                    json_output[year][text] = float(td.get_text().strip())
+                    json_output[year][text] = float(td.get_text().strip()[0:5])
             except Exception as e:
                 continue
 

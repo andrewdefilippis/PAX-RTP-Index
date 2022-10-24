@@ -13,7 +13,7 @@ class CONST(object):
     __slots__ = ()
     # Solo Class Categories:
     STREET = {"Street": "^[A-Z]S$"}
-    STREET_TOURING = {"Street Touring": "^ST[A-Z]$"}
+    STREET_TOURING = {"Street Touring": "^(ST[A-Z]|SST)$"}
     STREET_PREPARED = {"Street Prepared": "^[A-Z]SP$"}
     STREET_MODIFIED = {"Street Modified": "^[A-Z]?SM[A-Z]?$"}
     STREET_R = {"Street-R": "^SSR$"}

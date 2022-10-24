@@ -29,6 +29,7 @@ SoloClasses:
     - '2019': 1.0
     - '2020': 1.0
     - '2021': 1.0
+    - '2022': 1.0
     SoloCategory: Modified
   AP:
     RTP:
@@ -73,6 +74,7 @@ SoloClasses:
     - '2019': 0.817
     - '2020': 0.819
     - '2021': 0.821
+    - '2022': 0.821
     SoloCategory: Street
   ASP:
     RTP:
@@ -103,6 +105,7 @@ SoloClasses:
     - '2019': 0.85
     - '2020': 0.849
     - '2021': 0.849
+    - '2022': 0.849
     SoloCategory: Street Prepared
   ASR:
     RTP:
@@ -137,6 +140,7 @@ SoloClasses:
     - '2019': 0.96
     - '2020': 0.962
     - '2021': 0.962
+    - '2022': 0.988
     SoloCategory: Modified
   BP:
     RTP:
@@ -167,6 +171,7 @@ SoloClasses:
     - '2019': 0.865
     - '2020': 0.867
     - '2021': 0.867
+    - '2022': 0.867
     SoloCategory: Prepared
   BS:
     RTP:
@@ -197,6 +202,7 @@ SoloClasses:
     - '2019': 0.81
     - '2020': 0.814
     - '2021': 0.814
+    - '2022': 0.818
     SoloCategory: Street
   BSP:
     RTP:
@@ -227,6 +233,7 @@ SoloClasses:
     - '2019': 0.851
     - '2020': 0.852
     - '2021': 0.852
+    - '2022': 0.852
     SoloCategory: Street Prepared
   BSR:
     RTP:
@@ -241,6 +248,7 @@ SoloClasses:
     - '2019': 0.82
     - '2020': 0.818
     - '2021': 0.818
+    - '2022': 0.819
     SoloCategory: Classic American Muscle
   CAM-S:
     RTP:
@@ -251,6 +259,7 @@ SoloClasses:
     - '2019': 0.833
     - '2020': 0.833
     - '2021': 0.835
+    - '2022': 0.838
     SoloCategory: Classic American Muscle
   CAM-T:
     RTP:
@@ -261,6 +270,7 @@ SoloClasses:
     - '2019': 0.812
     - '2020': 0.817
     - '2021': 0.817
+    - '2022': 0.816
     SoloCategory: Classic American Muscle
   CM:
     RTP:
@@ -291,6 +301,7 @@ SoloClasses:
     - '2019': 0.891
     - '2020': 0.893
     - '2021': 0.893
+    - '2022': 0.895
     SoloCategory: Modified
   CP:
     RTP:
@@ -321,6 +332,7 @@ SoloClasses:
     - '2019': 0.848
     - '2020': 0.851
     - '2021': 0.851
+    - '2022': 0.854
     SoloCategory: Prepared
   CS:
     RTP:
@@ -351,6 +363,7 @@ SoloClasses:
     - '2019': 0.809
     - '2020': 0.809
     - '2021': 0.809
+    - '2022': 0.81
     SoloCategory: Street
   CSP:
     RTP:
@@ -381,6 +394,7 @@ SoloClasses:
     - '2019': 0.857
     - '2020': 0.865
     - '2021': 0.865
+    - '2022': 0.864
     SoloCategory: Street Prepared
   CSR:
     RTP:
@@ -415,6 +429,7 @@ SoloClasses:
     - '2019': 0.895
     - '2020': 0.895
     - '2021': 0.895
+    - '2022': 0.898
     SoloCategory: Modified
   DP:
     RTP:
@@ -445,6 +460,7 @@ SoloClasses:
     - '2019': 0.858
     - '2020': 0.866
     - '2021': 0.866
+    - '2022': 0.865
     SoloCategory: Prepared
   DS:
     RTP:
@@ -475,6 +491,7 @@ SoloClasses:
     - '2019': 0.8
     - '2020': 0.806
     - '2021': 0.807
+    - '2022': 0.807
     SoloCategory: Street
   DSP:
     RTP:
@@ -505,6 +522,7 @@ SoloClasses:
     - '2019': 0.84
     - '2020': 0.842
     - '2021': 0.842
+    - '2022': 0.844
     SoloCategory: Street Prepared
   DSR:
     RTP:
@@ -539,6 +557,7 @@ SoloClasses:
     - '2019': 0.894
     - '2020': 0.896
     - '2021': 0.898
+    - '2022': 0.909
     SoloCategory: Modified
   EP:
     RTP:
@@ -569,6 +588,7 @@ SoloClasses:
     - '2019': 0.849
     - '2020': 0.85
     - '2021': 0.85
+    - '2022': 0.85
     SoloCategory: Prepared
   ES:
     RTP:
@@ -599,6 +619,7 @@ SoloClasses:
     - '2019': 0.789
     - '2020': 0.793
     - '2021': 0.793
+    - '2022': 0.792
     SoloCategory: Street
   ESP:
     RTP:
@@ -629,6 +650,7 @@ SoloClasses:
     - '2019': 0.836
     - '2020': 0.839
     - '2021': 0.839
+    - '2022': 0.84
     SoloCategory: Street Prepared
   ESR:
     RTP:
@@ -638,6 +660,7 @@ SoloClasses:
     RTP:
     - '2020': 0.824
     - '2021': 0.826
+    - '2022': 0.835
     SoloCategory: Electric Vehicle
   F125:
     RTP:
@@ -741,6 +764,7 @@ SoloClasses:
     - '2019': 0.907
     - '2020': 0.911
     - '2021': 0.911
+    - '2022': 0.908
     SoloCategory: Modified
   FP:
     RTP:
@@ -768,6 +792,7 @@ SoloClasses:
     - '2019': 0.863
     - '2020': 0.868
     - '2021': 0.871
+    - '2022': 0.874
     SoloCategory: Prepared
   FS:
     RTP:
@@ -798,6 +823,7 @@ SoloClasses:
     - '2019': 0.803
     - '2020': 0.804
     - '2021': 0.806
+    - '2022': 0.814
     SoloCategory: Street
   FSAE:
     RTP:
@@ -819,6 +845,7 @@ SoloClasses:
     - '2019': 0.962
     - '2020': 0.963
     - '2021': 0.963
+    - '2022': 0.989
     SoloCategory: Formula SAE
   FSP:
     RTP:
@@ -844,6 +871,7 @@ SoloClasses:
     - '2019': 0.824
     - '2020': 0.823
     - '2021': 0.825
+    - '2022': 0.824
     SoloCategory: Street Prepared
   FSR:
     RTP:
@@ -890,6 +918,7 @@ SoloClasses:
     - '2019': 0.788
     - '2020': 0.792
     - '2021': 0.794
+    - '2022': 0.794
     SoloCategory: Street
   GSR:
     RTP:
@@ -903,6 +932,7 @@ SoloClasses:
     - '2019': 0.814
     - '2020': 0.815
     - '2021': 0.815
+    - '2022': 0.815
     SoloCategory: Heritage Classic
   HCS:
     RTP:
@@ -912,6 +942,7 @@ SoloClasses:
     - '2019': 0.793
     - '2020': 0.794
     - '2021': 0.795
+    - '2022': 0.793
     SoloCategory: Heritage Classic
   HS:
     RTP:
@@ -942,6 +973,7 @@ SoloClasses:
     - '2019': 0.78
     - '2020': 0.78
     - '2021': 0.782
+    - '2022': 0.786
     SoloCategory: Street
   HSR:
     RTP:
@@ -998,6 +1030,7 @@ SoloClasses:
     - '2019': 0.93
     - '2020': 0.93
     - '2021': 0.93
+    - '2022': 0.931
     SoloCategory: Modified
   SFJr:
     RTP:
@@ -1028,6 +1061,7 @@ SoloClasses:
     - '2019': 0.855
     - '2020': 0.854
     - '2021': 0.856
+    - '2022': 0.868
     SoloCategory: Street Modified
   SM2:
     RTP:
@@ -1053,6 +1087,7 @@ SoloClasses:
     - '2019': 0.841
     - '2020': 0.841
     - '2021': 0.841
+    - '2022': 0.845
     SoloCategory: Street Modified
   SS:
     RTP:
@@ -1083,6 +1118,7 @@ SoloClasses:
     - '2019': 0.821
     - '2020': 0.822
     - '2021': 0.823
+    - '2022': 0.83
     SoloCategory: Street
   SSC:
     RTP:
@@ -1090,6 +1126,7 @@ SoloClasses:
     - '2019': 0.801
     - '2020': 0.805
     - '2021': 0.812
+    - '2022': 0.809
     SoloCategory: Solo Spec Coupe
   SSM:
     RTP:
@@ -1106,6 +1143,7 @@ SoloClasses:
     - '2019': 0.875
     - '2020': 0.875
     - '2021': 0.875
+    - '2022': 0.883
     SoloCategory: Street Modified
   SSP:
     RTP:
@@ -1119,6 +1157,7 @@ SoloClasses:
     - '2019': 0.853
     - '2020': 0.853
     - '2021': 0.853
+    - '2022': 0.853
     SoloCategory: Street Prepared
   SSR:
     RTP:
@@ -1130,7 +1169,12 @@ SoloClasses:
     - '2019': 0.843
     - '2020': 0.843
     - '2021': 0.843
+    - '2022': 0.846
     SoloCategory: Street-R
+  SST:
+    RTP:
+    - '2022': 0.841
+    SoloCategory: Street Touring
   ST:
     RTP:
     - '1999': 0.774
@@ -1159,6 +1203,7 @@ SoloClasses:
     - '2019': 0.813
     - '2020': 0.813
     - '2021': 0.813
+    - '2022': 0.812
     SoloCategory: Street Touring
   STP:
     RTP:
@@ -1183,6 +1228,7 @@ SoloClasses:
     - '2019': 0.827
     - '2020': 0.827
     - '2021': 0.827
+    - '2022': 0.828
     SoloCategory: Street Touring
   STS:
     RTP:
@@ -1208,6 +1254,7 @@ SoloClasses:
     - '2019': 0.811
     - '2020': 0.812
     - '2021': 0.811
+    - '2022': 0.813
     SoloCategory: Street Touring
   STS2:
     RTP:
@@ -1238,6 +1285,7 @@ SoloClasses:
     - '2019': 0.828
     - '2020': 0.828
     - '2021': 0.828
+    - '2022': 0.829
     SoloCategory: Street Touring
   STX:
     RTP:
@@ -1261,6 +1309,7 @@ SoloClasses:
     - '2019': 0.815
     - '2020': 0.816
     - '2021': 0.816
+    - '2022': 0.817
     SoloCategory: Street Touring
   T-1:
     RTP:
@@ -1292,14 +1341,17 @@ SoloClasses:
     - '2019': 0.885
     - '2020': 0.88
     - '2021': 0.882
+    - '2022': 0.885
     SoloCategory: Prepared
   XS-A:
     RTP:
     - '2020': 0.844
     - '2021': 0.846
+    - '2022': 0.842
     SoloCategory: Xtreme Street
   XS-B:
     RTP:
     - '2020': 0.864
     - '2021': 0.858
+    - '2022': 0.851
     SoloCategory: Xtreme Street
