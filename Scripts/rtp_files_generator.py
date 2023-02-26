@@ -17,7 +17,7 @@ class CONST(object):
     STREET_PREPARED = {"Street Prepared": "^[A-Z]SP$"}
     STREET_MODIFIED = {"Street Modified": "^[A-Z]?SM[A-Z]?$"}
     STREET_R = {"Street-R": "^SSR$"}
-    XTREME_STREET = {"Xtreme Street": "^XS-[A-Z]$"}
+    XTREME_STREET = {"Xtreme Street": "^X[A-Z]$"}
     PREPARED = {"Prepared": "^[A-Z]P$"}
     MODIFIED = {"Modified": "^[A-Z]M$"}
     CLASSIC_AMERICAN_MUSCLE = {"Classic American Muscle": "^CAM-[A-Z]$"}
@@ -25,7 +25,7 @@ class CONST(object):
     FSAE = {"Formula SAE": "^FSAE$"}
     FORMULA_JUNIOR = {"Formula Junior": "^J[A-Z]$"}
     HERITAGE_CLASSIC = {"Heritage Classic": "^HC[A-Z]$"}
-    ELECTRIC_VEHICLE = {"Electric Vehicle": "^EV$"}
+    ELECTRIC_VEHICLE = {"Electric Vehicle": "^EV(X|)$"}
 
 
 C = CONST()
