@@ -16,6 +16,7 @@ def html_parser(data, year):
     soup = BeautifulSoup(data, "html.parser")
     h1_tags = soup.find_all("h1")
     table = soup.find("table")
+    json_output = None
 
     # Confirm that the page being viewed is the same year being requested
     for header in h1_tags:
@@ -24,12 +25,15 @@ def html_parser(data, year):
             h_year = h_text.split(' ')[0]
 
             if year is not None and not match("^{}".format(year), h_text):
-                raise ValueError("The year \"{}\" in the header on the PAX page, does not match the requested year: {}".format(h_year, year))
+                continue
             elif year is None:
                 year = h_year
                 json_output = {year: {}}
             else:
                 json_output = {year: {}}
+
+    if json_output == None:
+       raise ValueError("Unable to retrieve year")
 
     # Loop through the rows and columns for the PAX/RTP data
     for row in table.find_all("tr"):
