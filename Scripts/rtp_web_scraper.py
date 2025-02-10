@@ -39,10 +39,10 @@ def html_parser(data, year):
     for row in table.find_all("tr"):
         for td in row.find_all("td"):
             try:
-                if match('^\s*[A-Za-z]', td.get_text()):
+                if match(r'^\s*[A-Za-z]', td.get_text()):
                     text = td.get_text().strip().strip("*").split(' ')[0]
                     json_output[year][text] = None
-                elif match('^\s*[0-9]', td.get_text()):
+                elif match(r'^\s*[0-9]', td.get_text()):
                     json_output[year][text] = float(td.get_text().strip()[0:5])
             except Exception as e:
                 continue
