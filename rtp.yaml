@@ -33,6 +33,7 @@ SoloClasses:
     - '2023': 1.0
     - '2024': 1.0
     - '2025': 1.0
+    - '2026': 1.0
     SoloCategory: Modified
   AP:
     RTP:
@@ -81,6 +82,7 @@ SoloClasses:
     - '2023': 0.823
     - '2024': 0.824
     - '2025': 0.826
+    - '2026': 0.83
     SoloCategory: Street
   ASP:
     RTP:
@@ -113,6 +115,7 @@ SoloClasses:
     - '2021': 0.849
     - '2022': 0.849
     - '2025': 0.851
+    - '2026': 0.852
     SoloCategory: Street Prepared
   ASR:
     RTP:
@@ -121,6 +124,7 @@ SoloClasses:
   AST(STR):
     RTP:
     - '2025': 0.834
+    - '2026': 0.836
     SoloCategory: ''
   BM:
     RTP:
@@ -155,6 +159,7 @@ SoloClasses:
     - '2023': 0.98
     - '2024': 0.978
     - '2025': 0.978
+    - '2026': 0.966
     SoloCategory: Modified
   BP:
     RTP:
@@ -187,6 +192,7 @@ SoloClasses:
     - '2021': 0.867
     - '2022': 0.867
     - '2025': 0.874
+    - '2026': 0.875
     SoloCategory: Prepared
   BS:
     RTP:
@@ -221,6 +227,7 @@ SoloClasses:
     - '2023': 0.818
     - '2024': 0.818
     - '2025': 0.819
+    - '2026': 0.823
     SoloCategory: Street
   BSP:
     RTP:
@@ -253,6 +260,7 @@ SoloClasses:
     - '2021': 0.852
     - '2022': 0.852
     - '2025': 0.855
+    - '2026': 0.856
     SoloCategory: Street Prepared
   BSR:
     RTP:
@@ -261,6 +269,7 @@ SoloClasses:
   BST(STU):
     RTP:
     - '2025': 0.833
+    - '2026': 0.835
     SoloCategory: ''
   CAM-C:
     RTP:
@@ -275,6 +284,7 @@ SoloClasses:
     - '2023': 0.827
     - '2024': 0.826
     - '2025': 0.825
+    - '2026': 0.827
     SoloCategory: Classic American Muscle
   CAM-S:
     RTP:
@@ -289,6 +299,7 @@ SoloClasses:
     - '2023': 0.845
     - '2024': 0.848
     - '2025': 0.844
+    - '2026': 0.847
     SoloCategory: Classic American Muscle
   CAM-T:
     RTP:
@@ -303,6 +314,7 @@ SoloClasses:
     - '2023': 0.819
     - '2024': 0.82
     - '2025': 0.821
+    - '2026': 0.819
     SoloCategory: Classic American Muscle
   CM:
     RTP:
@@ -337,6 +349,7 @@ SoloClasses:
     - '2023': 0.896
     - '2024': 0.898
     - '2025': 0.899
+    - '2026': 0.896
     SoloCategory: Modified
   CP:
     RTP:
@@ -371,6 +384,7 @@ SoloClasses:
     - '2023': 0.858
     - '2024': 0.856
     - '2025': 0.863
+    - '2026': 0.862
     SoloCategory: Prepared
   CS:
     RTP:
@@ -405,11 +419,13 @@ SoloClasses:
     - '2023': 0.811
     - '2024': 0.813
     - '2025': 0.813
+    - '2026': 0.814
     SoloCategory: Street
   CSM:
     RTP:
     - '2024': 0.808
     - '2025': 0.8
+    - '2026': 0.794
     SoloCategory: Street Modified
   CSP:
     RTP:
@@ -444,6 +460,7 @@ SoloClasses:
     - '2023': 0.86
     - '2024': 0.86
     - '2025': 0.859
+    - '2026': 0.858
     SoloCategory: Street Prepared
   CSR:
     RTP:
@@ -452,11 +469,13 @@ SoloClasses:
   CST:
     RTP:
     - '2025': 0.83
+    - '2026': 0.829
     SoloCategory: ''
   CSX:
     RTP:
     - '2024': 0.811
     - '2025': 0.803
+    - '2026': 0.803
     SoloCategory: ''
   DM:
     RTP:
@@ -491,6 +510,7 @@ SoloClasses:
     - '2023': 0.898
     - '2024': 0.904
     - '2025': 0.906
+    - '2026': 0.906
     SoloCategory: Modified
   DP:
     RTP:
@@ -525,6 +545,7 @@ SoloClasses:
     - '2023': 0.865
     - '2024': 0.865
     - '2025': 0.865
+    - '2026': 0.863
     SoloCategory: Prepared
   DS:
     RTP:
@@ -559,6 +580,7 @@ SoloClasses:
     - '2023': 0.808
     - '2024': 0.81
     - '2025': 0.811
+    - '2026': 0.811
     SoloCategory: Street
   DSP:
     RTP:
@@ -593,6 +615,7 @@ SoloClasses:
     - '2023': 0.844
     - '2024': 0.847
     - '2025': 0.847
+    - '2026': 0.854
     SoloCategory: Street Prepared
   DSR:
     RTP:
@@ -601,6 +624,7 @@ SoloClasses:
   DST(STX):
     RTP:
     - '2025': 0.818
+    - '2026': 0.82
     SoloCategory: ''
   EM:
     RTP:
@@ -635,6 +659,7 @@ SoloClasses:
     - '2023': 0.911
     - '2024': 0.91
     - '2025': 0.916
+    - '2026': 0.916
     SoloCategory: Modified
   EP:
     RTP:
@@ -669,6 +694,7 @@ SoloClasses:
     - '2023': 0.856
     - '2024': 0.858
     - '2025': 0.858
+    - '2026': 0.855
     SoloCategory: Prepared
   ES:
     RTP:
@@ -703,6 +729,7 @@ SoloClasses:
     - '2023': 0.792
     - '2024': 0.792
     - '2025': 0.79
+    - '2026': 0.788
     SoloCategory: Street
   ESP:
     RTP:
@@ -737,6 +764,7 @@ SoloClasses:
     - '2023': 0.84
     - '2024': 0.84
     - '2025': 0.84
+    - '2026': 0.842
     SoloCategory: Street Prepared
   ESR:
     RTP:
@@ -745,6 +773,7 @@ SoloClasses:
   EST(STS):
     RTP:
     - '2025': 0.815
+    - '2026': 0.815
     SoloCategory: ''
   EV:
     RTP:
@@ -757,6 +786,7 @@ SoloClasses:
     - '2023': 0.832
     - '2024': 0.83
     - '2025': 0.839
+    - '2026': 0.839
     SoloCategory: Electric Vehicle
   F125:
     RTP:
@@ -864,6 +894,7 @@ SoloClasses:
     - '2023': 0.914
     - '2024': 0.917
     - '2025': 0.917
+    - '2026': 0.917
     SoloCategory: Modified
   FP:
     RTP:
@@ -895,6 +926,7 @@ SoloClasses:
     - '2023': 0.877
     - '2024': 0.877
     - '2025': 0.877
+    - '2026': 0.877
     SoloCategory: Prepared
   FS:
     RTP:
@@ -929,6 +961,7 @@ SoloClasses:
     - '2023': 0.813
     - '2024': 0.814
     - '2025': 0.817
+    - '2026': 0.817
     SoloCategory: Street
   FSAE:
     RTP:
@@ -954,6 +987,7 @@ SoloClasses:
     - '2023': 0.981
     - '2024': 0.98
     - '2025': 0.98
+    - '2026': 0.965
     SoloCategory: Formula SAE
   FSP:
     RTP:
@@ -983,6 +1017,7 @@ SoloClasses:
     - '2023': 0.828
     - '2024': 0.831
     - '2025': 0.831
+    - '2026': 0.833
     SoloCategory: Street Prepared
   FSR:
     RTP:
@@ -1033,6 +1068,7 @@ SoloClasses:
     - '2023': 0.794
     - '2024': 0.796
     - '2025': 0.794
+    - '2026': 0.793
     SoloCategory: Street
   GSR:
     RTP:
@@ -1041,6 +1077,7 @@ SoloClasses:
   GST(STH):
     RTP:
     - '2025': 0.81
+    - '2026': 0.812
     SoloCategory: ''
   HCR:
     RTP:
@@ -1054,6 +1091,7 @@ SoloClasses:
     - '2023': 0.815
     - '2024': 0.815
     - '2025': 0.814
+    - '2026': 0.813
     SoloCategory: Heritage Classic
   HCS:
     RTP:
@@ -1067,6 +1105,7 @@ SoloClasses:
     - '2023': 0.793
     - '2024': 0.793
     - '2025': 0.789
+    - '2026': 0.789
     SoloCategory: Heritage Classic
   HS:
     RTP:
@@ -1101,6 +1140,7 @@ SoloClasses:
     - '2023': 0.786
     - '2024': 0.786
     - '2025': 0.784
+    - '2026': 0.78
     SoloCategory: Street
   HSR:
     RTP:
@@ -1161,6 +1201,7 @@ SoloClasses:
     - '2023': 0.933
     - '2024': 0.937
     - '2025': 0.937
+    - '2026': 0.936
     SoloCategory: Modified
   SFJr:
     RTP:
@@ -1195,6 +1236,7 @@ SoloClasses:
     - '2023': 0.868
     - '2024': 0.868
     - '2025': 0.868
+    - '2026': 0.87
     SoloCategory: Street Modified
   SM2:
     RTP:
@@ -1224,6 +1266,7 @@ SoloClasses:
     - '2023': 0.847
     - '2024': 0.85
     - '2025': 0.85
+    - '2026': 0.857
     SoloCategory: Street Modified
   SS:
     RTP:
@@ -1258,6 +1301,7 @@ SoloClasses:
     - '2023': 0.833
     - '2024': 0.835
     - '2025': 0.836
+    - '2026': 0.837
     SoloCategory: Street
   SSC:
     RTP:
@@ -1269,6 +1313,7 @@ SoloClasses:
     - '2023': 0.807
     - '2024': 0.805
     - '2025': 0.802
+    - '2026': 0.808
     SoloCategory: Solo Spec Coupe
   SSM:
     RTP:
@@ -1289,6 +1334,7 @@ SoloClasses:
     - '2023': 0.879
     - '2024': 0.879
     - '2025': 0.878
+    - '2026': 0.878
     SoloCategory: Street Modified
   SSP:
     RTP:
@@ -1306,6 +1352,7 @@ SoloClasses:
     - '2023': 0.855
     - '2024': 0.857
     - '2025': 0.857
+    - '2026': 0.86
     SoloCategory: Street Prepared
   SSR:
     RTP:
@@ -1327,6 +1374,7 @@ SoloClasses:
     - '2023': 0.837
     - '2024': 0.836
     - '2025': 0.837
+    - '2026': 0.838
     SoloCategory: Street Touring
   ST:
     RTP:
@@ -1491,12 +1539,14 @@ SoloClasses:
     - '2023': 0.842
     - '2024': 0.842
     - '2025': 0.846
+    - '2026': 0.861
     SoloCategory: Xtreme Street
   XB:
     RTP:
     - '2023': 0.848
     - '2024': 0.849
     - '2025': 0.848
+    - '2026': 0.859
     SoloCategory: Xtreme Street
   XP:
     RTP:
@@ -1520,6 +1570,7 @@ SoloClasses:
     - '2023': 0.884
     - '2024': 0.887
     - '2025': 0.89
+    - '2026': 0.892
     SoloCategory: Xtreme Street
   XS:
     RTP:
@@ -1541,4 +1592,5 @@ SoloClasses:
   XU:
     RTP:
     - '2025': 0.869
+    - '2026': 0.869
     SoloCategory: Xtreme Street
