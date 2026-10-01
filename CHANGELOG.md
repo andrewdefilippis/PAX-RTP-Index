@@ -17,7 +17,7 @@ The data is now maintained in `CSV/`, and every JSON/YAML file is generated from
 ### Data corrections
 
 * 2024: updated to solotime.info's revision of December 20, 2023. `XS` and `SSR` removed, `XU` (0.869) added, `EVX` 0.830 → 0.834, `XA` 0.842 → 0.844.
-* 2026: added.
+* 2026: updated to solotime.info's revision of March 20, 2026 (the January 4 values predated it). `CAM-C` 0.827 → 0.828, `GS` 0.793 → 0.809, `SS` 0.837 → 0.840, `XU` 0.869 → 0.872.
 
 ### Removals
 
