@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/andrewdefilippis/PAX-RTP-Index/master/Schema/rtp.schema.json",
+  "title": "PAX/RTP indices for all years, by class",
+  "description": "Shape of rtp.json (SchemaVersion 2).",
+  "type": "object",
+  "required": ["SchemaVersion", "Source", "Years", "SoloClasses"],
+  "additionalProperties": false,
+  "properties": {
+    "SchemaVersion": { "const": 2 },
+    "Source": { "type": "string", "format": "uri" },
+    "Years": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/year" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["Url", "PageLastUpdate", "RetrievedAt"],
+        "additionalProperties": false,
+        "properties": {
+          "Url": { "type": "string", "format": "uri" },
+          "PageLastUpdate": { "type": "string", "format": "date" },
+          "RetrievedAt": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "SoloClasses": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/classCode" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["RTP", "Predecessors", "Successors"],
+        "additionalProperties": false,
+        "properties": {
+          "RTP": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": { "$ref": "#/$defs/year" },
+            "additionalProperties": {
+              "type": "object",
+              "required": ["Index", "Name", "SoloCategory", "ClassificationVerified"],
+              "additionalProperties": false,
+              "properties": {
+                "Index": { "$ref": "#/$defs/index" },
+                "Name": { "type": ["string", "null"], "minLength": 1, "description": "SCCA class name; null when no source could establish it" },
+                "SoloCategory": { "type": ["string", "null"], "minLength": 1, "description": "SCCA category name; null when no source could establish it" },
+                "ClassificationVerified": { "type": "boolean", "description": "true when Name and SoloCategory are cited from an SCCA source for this year; false when carried from a neighboring year or unknown" }
+              }
+            }
+          },
+          "Predecessors": { "type": "array", "items": { "$ref": "#/$defs/link" } },
+          "Successors": { "type": "array", "items": { "$ref": "#/$defs/link" } }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "year": { "type": "string", "pattern": "^[0-9]{4}$" },
+    "classCode": { "type": "string", "pattern": "^[A-Z0-9][A-Za-z0-9-]{0,7}$" },
+    "index": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 },
+    "link": {
+      "type": "object",
+      "required": ["Year", "Class", "Relation"],
+      "additionalProperties": false,
+      "properties": {
+        "Year": { "type": "integer", "minimum": 1995 },
+        "Class": { "$ref": "#/$defs/classCode" },
+        "Relation": { "enum": ["renamed", "derived"] }
+      }
+    }
+  }
+}

@@ -1,4 +1,0 @@
-beautifulsoup4==4.11.2
-json2table==1.1.5
-jsonmerge==1.8.0
-PyYAML==6.0
