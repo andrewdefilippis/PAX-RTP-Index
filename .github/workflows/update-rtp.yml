@@ -1,0 +1,141 @@
+name: Update RTP data
+
+on:
+  schedule:
+    - cron: "17 14 * * 1" # Mondays 14:17 UTC
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "Space-separated years to re-fetch (blank = newest published year and the one before it)"
+        required: false
+        default: ""
+
+permissions: {}
+
+concurrency:
+  group: update-rtp
+  cancel-in-progress: false
+
+jobs:
+  # Runs all third-party code (uv, Python packages, scraper, tests) with a read-only token.
+  build:
+    runs-on: ubuntu-24.04  # ships python3.12; UV_PYTHON_DOWNLOADS is off
+    timeout-minutes: 15
+    env:
+      UV_PYTHON_DOWNLOADS: never
+    permissions:
+      contents: read
+    outputs:
+      changed: ${{ steps.diff.outputs.changed }}
+      validation: ${{ steps.validate.outcome }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          version: "0.12.21"
+          # sha256 of uv-x86_64-unknown-linux-gnu.tar.gz; bump together with version.
+          checksum: "23f02075b652bb1df64178cfae41b5caf160822e720e2663568f3f5d63bc52c0"
+          python-version: "3.12"
+          enable-cache: false
+      - run: uv sync --locked
+
+      - name: Fetch solotime.info and update CSV
+        env:
+          YEARS: ${{ inputs.years }}
+        run: |
+          set -f
+          args=()
+          for year in $YEARS; do
+            [[ "$year" =~ ^[0-9]{4}$ ]] || { echo "::error::invalid year: $year"; exit 1; }
+            args+=(--year "$year")
+          done
+          mkdir -p "$RUNNER_TEMP/changes"
+          uv run --locked python Scripts/rtp_web_scraper.py "${args[@]}" \
+            --report "$RUNNER_TEMP/changes/report.md" --html-dir "$RUNNER_TEMP/html"
+
+      - name: Regenerate outputs and validate
+        id: validate
+        continue-on-error: true
+        run: |
+          report="$RUNNER_TEMP/changes/report.md"
+          status=0
+          output="$(mktemp)"
+          uv run --locked python Scripts/rtp_files_generator.py > "$output" 2>&1 || status=1
+          uv run --locked pytest -q >> "$output" 2>&1 || status=1
+          { echo; echo "## Validation"; echo; sed 's/^/    /' "$output"; } >> "$report"
+          if [ "$status" -ne 0 ]; then
+            printf '\n%s\n' "**Validation failed.** Add the missing rows to \`CSV/classes.csv\` / \`CSV/lineage.csv\` on this branch and push; the push runs CI." >> "$report"
+          fi
+          exit "$status"
+
+      - name: Package changes
+        id: diff
+        run: |
+          git add -A
+          git diff --cached --binary -- CSV JSON YAML rtp.json rtp.yaml > "$RUNNER_TEMP/changes/changes.patch"
+          if [ -s "$RUNNER_TEMP/changes/changes.patch" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.diff.outputs.changed == 'true'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: changes
+          path: ${{ runner.temp }}/changes
+          retention-days: 7
+
+      - if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: fetched-html
+          path: ${{ runner.temp }}/html
+          retention-days: 30
+          if-no-files-found: ignore
+
+  # Holds the write token; runs no third-party Python code.
+  open-pr:
+    needs: build
+    if: needs.build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: changes
+          path: ${{ runner.temp }}/changes
+      # On rejection the worktree is left dirty and this step fails; no later step may use `if: always()`.
+      - name: Apply data changes
+        run: python3 -I .github/scripts/apply_data_patch.py "$RUNNER_TEMP/changes/changes.patch"
+
+      - name: Sanitize PR body
+        run: |
+          # Break @-mentions and issue-closing keywords with a zero-width space.
+          perl -MEncode -0777 -ne '$_ = decode("UTF-8", $_);
+            s/@/\@\x{200b}/g; s/\b(clos(?:e|es|ed)|fix(?:es|ed)?|resolv(?:e|es|ed))\b/$1\x{200b}/gi;
+            print encode("UTF-8", substr($_, 0, 60000))' "$RUNNER_TEMP/changes/report.md" > "$RUNNER_TEMP/pr-body.md"
+      - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+        with:
+          branch: automation/rtp-update
+          delete-branch: true
+          sign-commits: true
+          add-paths: |
+            CSV/**
+            JSON/**
+            YAML/**
+            rtp.json
+            rtp.yaml
+          commit-message: "Update PAX/RTP data from solotime.info"
+          title: "Update PAX/RTP data from solotime.info"
+          body-path: ${{ runner.temp }}/pr-body.md
+          draft: ${{ needs.build.outputs.validation == 'failure' }}
+          labels: ${{ needs.build.outputs.validation == 'failure' && 'rtp-update,needs-classification' || 'rtp-update' }}

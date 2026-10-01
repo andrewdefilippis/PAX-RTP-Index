@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04  # ships python3.12; UV_PYTHON_DOWNLOADS is off
+    timeout-minutes: 10
+    env:
+      UV_PYTHON_DOWNLOADS: never
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        with:
+          version: "0.12.21"
+          # sha256 of uv-x86_64-unknown-linux-gnu.tar.gz; bump together with version.
+          checksum: "23f02075b652bb1df64178cfae41b5caf160822e720e2663568f3f5d63bc52c0"
+          python-version: "3.12"
+          enable-cache: false
+      - run: uv sync --locked
+      - run: uv run --locked pytest -q
+      - name: Generated files match canonical CSV
+        run: |
+          uv run --locked python Scripts/rtp_files_generator.py
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
