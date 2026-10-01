@@ -1,0 +1,352 @@
+class,first_year,last_year,name,category,status,source
+AM,1995,1997,A Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+AM,1998,1998,A Modified,Modified,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org) ('Modified Class A-F')
+AM,1999,1999,A Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+AM,2000,2000,A Modified,Modified,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Modified Class A-F')
+AM,2001,2002,A Modified,Modified,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+AM,2003,2003,A Modified,Modified,unverified,"carried from 2004 (2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org))"
+AM,2004,2004,A Modified,Modified,verified,"2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org)"
+AM,2005,,A Modified,Modified,verified,2005-2026 SCCA National Solo Rules §18 & App. A (2019-2026: §18 class list)
+AP,1995,1997,A Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+AP,1998,1998,A Prepared,Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+AP,1999,1999,A Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+AP,2000,2000,A Prepared,Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) (Prepared Class A-F)
+AP,2001,2001,A Prepared,Prepared,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+AP,2002,2002,A Prepared,Prepared,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+AP,2003,2003,A Prepared,Prepared,unverified,carried from 2002 (SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org))
+AP,2004,2004,A Prepared,Prepared,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+AP,2005,2005,A Prepared,Prepared,verified,2005 SCCA National Solo Rules App. A ('Prepared Class A (AP)')
+AS,1995,1997,A Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+AS,1998,1998,A Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+AS,1999,1999,A Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+AS,2000,2000,A Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+AS,2001,2004,A Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+AS,2005,2013,A Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+AS,2014,2014,A Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+AS,2015,,A Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+ASP,1995,1997,A Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+ASP,1998,1998,A Street Prepared,Street Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+ASP,1999,1999,A Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+ASP,2000,2000,A Street Prepared,Street Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+ASP,2001,2001,A Street Prepared,Street Prepared,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+ASP,2002,2004,A Street Prepared,Street Prepared,verified,"2002-2004 SCCA National Solo Rules App. A Street Prepared class lists (unofficial transcription, moutons.org)"
+ASP,2005,2022,A Street Prepared,Street Prepared,verified,2005-2022 SCCA National Solo Rules App. A (2019-2022: §15 class list)
+ASP,2025,,A Street Prepared,Street Prepared,unverified,"carried from 2022 (2022 SCCA National Solo Rules §15); ASP not listed in 2023-2026 rulebooks (§15 lists SSP, CSP-FSP only)"
+ASR,2014,2014,A Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+AST,2025,,A Street Touring,Street Touring,verified,2025-2026 SCCA National Solo Rules §14 class list
+BM,1995,1997,B Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BM,1998,1998,B Modified,Modified,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org) ('Modified Class A-F')
+BM,1999,1999,B Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BM,2000,2000,B Modified,Modified,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Modified Class A-F')
+BM,2001,2002,B Modified,Modified,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+BM,2003,2003,B Modified,Modified,unverified,"carried from 2004 (2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org))"
+BM,2004,2004,B Modified,Modified,verified,"2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org)"
+BM,2005,,B Modified,Modified,verified,2005-2026 SCCA National Solo Rules §18 & App. A (2019-2026: §18 class list)
+BP,1995,1997,B Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BP,1998,1998,B Prepared,Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+BP,1999,1999,B Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BP,2000,2000,B Prepared,Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) (Prepared Class A-F)
+BP,2001,2001,B Prepared,Prepared,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+BP,2002,2002,B Prepared,Prepared,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+BP,2003,2003,B Prepared,Prepared,unverified,carried from 2002 (SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org))
+BP,2004,2004,B Prepared,Prepared,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+BP,2005,2012,B Prepared,Prepared,verified,2005-2012 SCCA National Solo Rules App. A ('Prepared Class B'; 2007-2012 'Prepared Supplemental Class B')
+BP,2013,2022,B Prepared,Prepared,unverified,carried from 2012 (2012 SCCA National Solo Rules App. A); BP not listed in 2013-2026 rulebooks
+BP,2025,,B Prepared,Prepared,unverified,carried from 2012 (2012 SCCA National Solo Rules App. A); BP not listed in 2013-2026 rulebooks
+BS,1995,1997,B Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BS,1998,1998,B Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+BS,1999,1999,B Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BS,2000,2000,B Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+BS,2001,2004,B Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+BS,2005,2013,B Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+BS,2014,2014,B Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+BS,2015,,B Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+BSP,1995,1997,B Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BSP,1998,1998,B Street Prepared,Street Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+BSP,1999,1999,B Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+BSP,2000,2000,B Street Prepared,Street Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+BSP,2001,2001,B Street Prepared,Street Prepared,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+BSP,2002,2004,B Street Prepared,Street Prepared,verified,"2002-2004 SCCA National Solo Rules App. A Street Prepared class lists (unofficial transcription, moutons.org)"
+BSP,2005,2022,B Street Prepared,Street Prepared,verified,2005-2022 SCCA National Solo Rules App. A (2019-2022: §15 class list)
+BSP,2025,,B Street Prepared,Street Prepared,unverified,"carried from 2022 (2022 SCCA National Solo Rules §15); BSP not listed in 2023-2026 rulebooks (§15 lists SSP, CSP-FSP only)"
+BSR,2014,2014,B Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+BST,2025,,B Street Touring,Street Touring,verified,2025-2026 SCCA National Solo Rules §14 class list
+CAM-C,2015,2022,CAM-C (Contemporary),Classic American Muscle,verified,2015-2022 SCCA National Solo Rules App. B (2016 via SCCA 2016 CAM rules handout)
+CAM-C,2023,,Classic American Muscle - Contemporary,Classic American Muscle / Xtreme Street,verified,2023-2025 SCCA National Solo Rules App. B; 2026 §21
+CAM-S,2015,2022,CAM-S (Sports),Classic American Muscle,verified,2015-2022 SCCA National Solo Rules App. B (2016 via SCCA 2016 CAM rules handout)
+CAM-S,2023,,Classic American Muscle - Sport,Classic American Muscle / Xtreme Street,verified,2023-2025 SCCA National Solo Rules App. B; 2026 §21
+CAM-T,2015,2022,CAM-T (Traditional),Classic American Muscle,verified,2015-2022 SCCA National Solo Rules App. B (2016 via SCCA 2016 CAM rules handout)
+CAM-T,2023,,Classic American Muscle - Traditional,Classic American Muscle / Xtreme Street,verified,2023-2025 SCCA National Solo Rules App. B; 2026 §21
+CM,1995,1997,C Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CM,1998,1998,C Modified,Modified,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org) ('Modified Class A-F')
+CM,1999,1999,C Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CM,2000,2000,C Modified,Modified,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Modified Class A-F')
+CM,2001,2002,C Modified,Modified,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+CM,2003,2003,C Modified,Modified,unverified,"carried from 2004 (2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org))"
+CM,2004,2004,C Modified,Modified,verified,"2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org)"
+CM,2005,,C Modified,Modified,verified,2005-2026 SCCA National Solo Rules §18 & App. A (2019-2026: §18 class list)
+CP,1995,1997,C Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CP,1998,1998,C Prepared,Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+CP,1999,1999,C Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CP,2000,2000,C Prepared,Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) (Prepared Class A-F)
+CP,2001,2001,C Prepared,Prepared,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+CP,2002,2002,C Prepared,Prepared,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+CP,2003,2003,C Prepared,Prepared,unverified,carried from 2002 (SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org))
+CP,2004,2004,C Prepared,Prepared,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+CP,2005,,C Prepared,Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §17 class list)
+CS,1995,1997,C Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CS,1998,1998,C Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+CS,1999,1999,C Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CS,2000,2000,C Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+CS,2001,2004,C Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+CS,2005,2013,C Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+CS,2014,2014,C Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+CS,2015,,C Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+CSM,2024,,Club Spec Mustang,Club Spec,verified,2024-2026 SCCA National Solo Rules App. B (2025-2026 Developmental Classes)
+CSP,1995,1997,C Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CSP,1998,1998,C Street Prepared,Street Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+CSP,1999,1999,C Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+CSP,2000,2000,C Street Prepared,Street Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+CSP,2001,2001,C Street Prepared,Street Prepared,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+CSP,2002,2004,C Street Prepared,Street Prepared,verified,"2002-2004 SCCA National Solo Rules App. A Street Prepared class lists (unofficial transcription, moutons.org)"
+CSP,2005,,C Street Prepared,Street Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §15 class list)
+CSR,2014,2014,C Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+CST,2025,,C Street Touring,Street Touring,verified,2025-2026 SCCA National Solo Rules §14 class list
+CSX,2024,,Club Spec MX-5,Club Spec,verified,2024-2026 SCCA National Solo Rules App. B (2025-2026 Developmental Classes)
+DM,1995,1997,D Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DM,1998,1998,D Modified,Modified,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org) ('Modified Class A-F')
+DM,1999,1999,D Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DM,2000,2000,D Modified,Modified,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Modified Class A-F')
+DM,2001,2002,D Modified,Modified,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+DM,2003,2004,D Modified,Modified,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+DM,2005,,D Modified,Modified,verified,2005-2026 SCCA National Solo Rules §18 & App. A (2019-2026: §18 class list)
+DP,1995,1997,D Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DP,1998,1998,D Prepared,Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+DP,1999,1999,D Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DP,2000,2000,D Prepared,Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) (Prepared Class A-F)
+DP,2001,2001,D Prepared,Prepared,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+DP,2002,2002,D Prepared,Prepared,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+DP,2003,2003,D Prepared,Prepared,unverified,carried from 2002 (SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org))
+DP,2004,2004,D Prepared,Prepared,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+DP,2005,,D Prepared,Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §17 class list)
+DS,1995,1997,D Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DS,1998,1998,D Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+DS,1999,1999,D Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DS,2000,2000,D Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+DS,2001,2004,D Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+DS,2005,2013,D Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+DS,2014,2014,D Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+DS,2015,,D Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+DSP,1995,1997,D Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DSP,1998,1998,D Street Prepared,Street Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+DSP,1999,1999,D Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+DSP,2000,2000,D Street Prepared,Street Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+DSP,2001,2001,D Street Prepared,Street Prepared,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+DSP,2002,2004,D Street Prepared,Street Prepared,verified,"2002-2004 SCCA National Solo Rules App. A Street Prepared class lists (unofficial transcription, moutons.org)"
+DSP,2005,,D Street Prepared,Street Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §15 class list)
+DSR,2014,2014,D Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+DST,2025,,D Street Touring,Street Touring,verified,2025-2026 SCCA National Solo Rules §14 class list
+EM,1995,1997,E Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+EM,1998,1998,E Modified,Modified,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org) ('Modified Class A-F')
+EM,1999,1999,E Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+EM,2000,2000,E Modified,Modified,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Modified Class A-F')
+EM,2001,2002,E Modified,Modified,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+EM,2003,2004,E Modified,Modified,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+EM,2005,,E Modified,Modified,verified,2005-2026 SCCA National Solo Rules §18 & App. A (2019-2026: §18 class list)
+EP,1995,1997,E Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+EP,1998,1998,E Prepared,Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+EP,1999,1999,E Prepared,Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+EP,2000,2000,E Prepared,Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) (Prepared Class A-F)
+EP,2001,2001,E Prepared,Prepared,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+EP,2002,2002,E Prepared,Prepared,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+EP,2003,2003,E Prepared,Prepared,unverified,carried from 2002 (SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org))
+EP,2004,2004,E Prepared,Prepared,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+EP,2005,,E Prepared,Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §17 class list)
+ES,1995,1997,E Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+ES,1998,1998,E Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+ES,1999,1999,E Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+ES,2000,2000,E Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+ES,2001,2004,E Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+ES,2005,2013,E Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+ES,2014,2014,E Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+ES,2015,,E Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+ESP,1995,1997,E Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+ESP,1998,1998,E Street Prepared,Street Prepared,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+ESP,1999,1999,E Street Prepared,Street Prepared,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+ESP,2000,2000,E Street Prepared,Street Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+ESP,2001,2001,E Street Prepared,Street Prepared,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+ESP,2002,2004,E Street Prepared,Street Prepared,verified,"2002-2004 SCCA National Solo Rules App. A Street Prepared class lists (unofficial transcription, moutons.org)"
+ESP,2005,,E Street Prepared,Street Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §15 class list)
+ESR,2014,2014,E Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+EST,2025,,E Street Touring,Street Touring,verified,2025-2026 SCCA National Solo Rules §14 class list
+EV,2020,2020,Electric Vehicle Experimental,Electric Vehicle Experimental,unverified,carried from 2021 (SCCA 2021 Solo Electric Vehicle Class Rules (cdn.connectsites.net/user_files/scca/downloads/000/056/244/)); no EV class in 2020 rulebook
+EV,2021,2021,Electric Vehicle Experimental,Electric Vehicle Experimental,verified,SCCA 2021 Solo Electric Vehicle Class Rules (cdn.connectsites.net/user_files/scca/downloads/000/056/244/) [standalone; class code EVX]
+EV,2022,2022,Electric Vehicle Experimental,Electric Vehicle Experimental,verified,2022 SCCA National Solo Rules App. B Supplementary Categories [class code EVX]
+EVX,2023,2024,Electric Vehicle Experimental,Electric Vehicle Experimental,verified,2023-2024 SCCA National Solo Rules App. B Supplementary Categories (heading spelled 'Electrical')
+EVX,2025,,Electric Vehicle Experimental,Electric Vehicle Experimental,verified,2025-2026 SCCA National Solo Rules App. B Exhibition Classes & §4.8.C
+F125,1998,2001,Formula 125,Kart,unverified,"carried from 2002 (2002 SCCA National Solo Rules App. G §V ('Formula 125 Rules'; unofficial transcription, moutons.org))"
+F125,2002,2002,Formula 125,Kart,verified,"2002 SCCA National Solo Rules App. G §V ('Formula 125 Rules'; unofficial transcription, moutons.org) [App. G Karts at Solo II Events]"
+F125,2003,2003,Formula 125,Kart,unverified,"carried from 2002 (2002 SCCA National Solo Rules App. G §V ('Formula 125 Rules'; unofficial transcription, moutons.org))"
+F125,2004,2004,Formula 125,Kart,unverified,carried from 2005 (2005 SCCA National Solo Rules §19.1)
+F125,2005,2011,Formula 125,Kart,verified,2005-2011 SCCA National Solo Rules §19.1 ('F125' / 'Formula 125 (F125)'; §19 Kart Classes)
+FJ1,2004,2004,Formula Junior 1,Kart,unverified,carried from 2005 (2005 SCCA National Solo Rules §19.2.A)
+FJ1,2005,2005,Formula Junior 1,Kart,verified,2005 SCCA National Solo Rules §19.2.A ('Formula Junior 1')
+FJ1,2006,2007,Formula Junior B,Kart,verified,2006-2007 SCCA National Solo Rules §19.2.A ('Formula Junior B (formerly FJ1 and FJ3)')
+FJ2,2004,2004,Formula Junior 2,Kart,unverified,carried from 2005 (2005 SCCA National Solo Rules §19.2.A)
+FJ2,2005,2005,Formula Junior 2,Kart,verified,2005 SCCA National Solo Rules §19.2.A ('Formula Junior 2')
+FJ2,2006,2007,Formula Junior A,Kart,verified,2006-2007 SCCA National Solo Rules §19.2.A ('Formula Junior A (formerly FJ2 and FJ4)')
+FJ3,2004,2004,Formula Junior 3,Kart,unverified,carried from 2005 (2005 SCCA National Solo Rules §19.2.A)
+FJ3,2005,2005,Formula Junior 3,Kart,verified,2005 SCCA National Solo Rules §19.2.A ('Formula Junior 3')
+FJ3,2006,2007,Formula Junior B,Kart,verified,2006-2007 SCCA National Solo Rules §19.2.A ('Formula Junior B (formerly FJ1 and FJ3)')
+FJ4,2004,2004,Formula Junior 4,Kart,unverified,carried from 2005 (2005 SCCA National Solo Rules §19.2.A)
+FJ4,2005,2005,Formula Junior 4,Kart,verified,2005 SCCA National Solo Rules §19.2.A ('Formula Junior 4')
+FJ4,2006,2007,Formula Junior A,Kart,verified,2006-2007 SCCA National Solo Rules §19.2.A ('Formula Junior A (formerly FJ2 and FJ4)')
+FJA,2008,2011,Formula Junior A,Kart,verified,2008-2011 SCCA National Solo Rules §19.2.A
+FJB,2008,2011,Formula Junior B,Kart,verified,2008-2011 SCCA National Solo Rules §19.2.A
+FJC,2008,2009,Formula Junior C,Kart,unverified,carried from 2010 (2010 SCCA National Solo Rules §19.2.A); not in 2008-2009 rulebooks (only FJA/FJB)
+FJC,2010,2011,Formula Junior C,Kart,verified,2010-2011 SCCA National Solo Rules §19.2.A (Regional-only)
+FJr,1999,2003,,,unverified,no 1999-2003 rulebook obtained; 2002 rules App. H Junior Driver Program (moutons.org) leaves junior class designation to regions
+FM,1996,1997,F Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+FM,1998,1998,F Modified,Modified,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org) ('Modified Class A-F')
+FM,1999,1999,F Modified,Modified,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+FM,2000,2000,F Modified,Modified,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Modified Class A-F')
+FM,2001,2002,F Modified,Modified,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org))
+FM,2003,2003,F Modified,Modified,unverified,"carried from 2004 (2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org))"
+FM,2004,2004,F Modified,Modified,verified,"2004 SCCA National Solo Rules §3.3.2 ('A, B, C, and F Modified vehicles'; unofficial transcription, moutons.org)"
+FM,2005,,F Modified,Modified,verified,2005-2026 SCCA National Solo Rules §18 & App. A (2019-2026: §18 class list)
+FP,1995,1996,F Prepared,Prepared,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)); F Prepared absent from 1998 rules (1997-1999 gap)
+FP,2000,2000,F Prepared,Prepared,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) (Prepared Class A-F)
+FP,2001,2001,F Prepared,Prepared,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+FP,2002,2002,F Prepared,Prepared,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (Prepared Class A-F)
+FP,2003,2003,F Prepared,Prepared,unverified,carried from 2002 (SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org))
+FP,2004,2004,F Prepared,Prepared,unverified,carried from 2005 (2005 SCCA National Solo Rules App. A)
+FP,2005,,F Prepared,Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §17 class list)
+FS,1995,1997,F Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+FS,1998,1998,F Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+FS,1999,1999,F Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+FS,2000,2000,F Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+FS,2001,2004,F Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+FS,2005,2013,F Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+FS,2014,2014,F Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+FS,2015,,F Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+FSAE,2004,2004,Formula SAE,Modified,unverified,carried from 2005 (2005 SCCA National Solo Rules §18.5)
+FSAE,2005,2009,Formula SAE,Modified,verified,2005-2009 SCCA National Solo Rules §18.5 (assigned to A Modified)
+FSAE,2010,2011,Formula SAE,Modified,verified,"2010-2011 SCCA National Solo Rules §18.5 (A Modified, subgroup FSAE)"
+FSAE,2012,2015,Formula SAE,Modified,verified,"2012-2015 SCCA National Solo Rules §18.5 (Supplemental Class FSAE, may run as AM subgroup)"
+FSAE,2016,2016,Formula SAE,Modified,unverified,carried from 2015 (2015 SCCA National Solo Rules §18.5); 2016 §18 not obtained
+FSAE,2017,,Formula SAE,Modified,verified,2017-2026 SCCA National Solo Rules §18.5 (Supplemental Class FSAE; 2025-2026 also §4.8.C Exhibition Class)
+FSP,2000,2001,F Street Prepared,Street Prepared,unverified,"carried from 2002 (2002 SCCA National Solo Rules App. A, unofficial transcription, moutons.org); SCCA web excerpt of 2000 rules lists only ASP-ESP; later Awards appendix lists FSP champions from 2000"
+FSP,2002,2004,F Street Prepared,Street Prepared,verified,"2002-2004 SCCA National Solo Rules App. A Street Prepared class lists (unofficial transcription, moutons.org)"
+FSP,2005,,F Street Prepared,Street Prepared,verified,2005-2026 SCCA National Solo Rules App. A (2019-2026: §15 class list)
+FSR,2014,2014,F Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+GP,2006,2014,G Prepared,Prepared,verified,2006-2014 SCCA National Solo Rules App. A ('Prepared Class G (GP)')
+GS,1995,1997,G Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+GS,1998,1998,G Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+GS,1999,1999,G Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+GS,2000,2000,G Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+GS,2001,2004,G Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+GS,2005,2013,G Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+GS,2014,2014,G Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+GS,2015,,G Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+GSR,2014,2014,G Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+GST,2025,,G Street Touring,Street Touring,verified,2025-2026 SCCA National Solo Rules §14 class list
+HCR,2016,2016,Heritage Classic Race,Heritage Classic,verified,SCCA 2016 Heritage Classic Rules (cdn.connectsites.net/user_files/scca/downloads/000/015/312/2016_Heritage_Classic_Rules.pdf) [standalone]
+HCR,2017,,Heritage Classic Race,Heritage Classic,unverified,carried from 2016 (SCCA 2016 Heritage Classic Rules (cdn.connectsites.net/user_files/scca/downloads/000/015/312/2016_Heritage_Classic_Rules.pdf)); not in 2017-2026 Solo Rules
+HCS,2016,2016,Heritage Classic Street,Heritage Classic,verified,SCCA 2016 Heritage Classic Rules (cdn.connectsites.net/user_files/scca/downloads/000/015/312/2016_Heritage_Classic_Rules.pdf) [standalone]
+HCS,2017,,Heritage Classic Street,Heritage Classic,unverified,carried from 2016 (SCCA 2016 Heritage Classic Rules (cdn.connectsites.net/user_files/scca/downloads/000/015/312/2016_Heritage_Classic_Rules.pdf)); not in 2017-2026 Solo Rules
+HS,1995,1997,H Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+HS,1998,1998,H Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+HS,1999,1999,H Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+HS,2000,2000,H Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+HS,2001,2004,H Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+HS,2005,2013,H Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+HS,2014,2014,H Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+HS,2015,,H Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+HSR,2014,2014,H Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+JA,2012,2015,Junior A,Kart,verified,2012-2015 SCCA National Solo Rules §19.2 ('Junior A (JA)' / 'Junior class A')
+JA,2016,2016,Junior A,Kart,unverified,carried from 2015 (2015 SCCA National Solo Rules §19.2); 2016 §19 not obtained
+JA,2017,2021,Junior A,Kart,verified,2017-2021 SCCA National Solo Rules §19.2/§19.3 ('Junior class A (JA)')
+JB,2012,2015,Junior B,Kart,verified,2012-2015 SCCA National Solo Rules §19.2 ('Junior B (JB)' / 'Junior class B')
+JB,2016,2016,Junior B,Kart,unverified,carried from 2015 (2015 SCCA National Solo Rules §19.2); 2016 §19 not obtained
+JB,2017,2021,Junior B,Kart,verified,2017-2021 SCCA National Solo Rules §19.2/§19.3 ('Junior class B (JB)')
+JC,2012,2015,Junior C,Kart,verified,2012-2015 SCCA National Solo Rules §19.2 ('Junior C (JC)' / 'Junior class C')
+JC,2016,2016,Junior C,Kart,unverified,carried from 2015 (2015 SCCA National Solo Rules §19.2); 2016 §19 not obtained
+JC,2017,2021,Junior C,Kart,verified,2017-2021 SCCA National Solo Rules §19.2/§19.3 ('Junior class C (JC)')
+KM,2012,2015,Kart Modified,Kart,verified,2012-2015 SCCA National Solo Rules §19.1
+KM,2016,2016,Kart Modified,Kart,unverified,carried from 2015 (2015 SCCA National Solo Rules §19.1); 2016 §19 not obtained
+KM,2017,,Kart Modified,Kart,verified,2017-2026 SCCA National Solo Rules §19.1/§19.2
+SFJr,2002,2003,,,unverified,no 2002-2003 rulebook obtained; 2002 rules App. H Junior Driver Program (moutons.org) leaves junior class designation to regions
+SM,2000,2000,Street Mod,Street Modified,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Street Mod (SM)')
+SM,2001,2001,Street Mod,Street Modified,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (Street Modified category text)
+SM,2002,2002,Street Mod,Street Modified,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (Street Modified category text)
+SM,2003,2003,Street Mod,Street Modified,verified,"2003 SCCA National Solo Rules §18 ('Street Mod (SM)'; unofficial transcription, moutons.org)"
+SM,2004,2004,Street Mod,Street Modified,unverified,"carried from 2003 (2003 SCCA National Solo Rules §18, unofficial transcription, moutons.org)"
+SM,2005,2009,Street Mod,Street Modified,verified,2005-2009 SCCA National Solo Rules §16.B ('Street Mod (SM)')
+SM,2010,,Street Modified,Street Modified,verified,2010-2026 SCCA National Solo Rules §16 & App. A (2019-2026: §16 class list)
+SM2,2002,2002,Street Mod 2,Street Modified,unverified,"carried from 2003 (2003 SCCA National Solo Rules §18, unofficial transcription, moutons.org)"
+SM2,2003,2003,Street Mod 2,Street Modified,verified,"2003 SCCA National Solo Rules §18 ('Street Mod 2 (SM2)'; unofficial transcription, moutons.org)"
+SM2,2004,2004,Street Mod 2,Street Modified,unverified,"carried from 2003 (2003 SCCA National Solo Rules §18, unofficial transcription, moutons.org)"
+SM2,2005,2008,Street Mod 2,Street Modified,verified,2005-2008 SCCA National Solo Rules §16.B ('Street Mod 2 (SM2)')
+SMF,2010,2018,Street Modified Front Wheel Drive,Street Modified,verified,2010-2018 SCCA National Solo Rules App. A (supplemental class; 2017-2018 spelled Front-Wheel-Drive)
+SMF,2019,,Street Modified FWD,Street Modified,verified,2019-2026 SCCA National Solo Rules §16 class list
+SS,1995,1997,Super Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+SS,1998,1998,Super Stock,Stock,verified,SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org)
+SS,1999,1999,Super Stock,Stock,unverified,carried from 1998 (SCCA web excerpt of 1998 Solo I & II Rules App. A (scca.org via web.archive.org))
+SS,2000,2000,Super Stock,Stock,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)
+SS,2001,2004,Super Stock,Stock,verified,"2001-2004 SCCA National Solo Rules App. A Stock class lists (unofficial transcription, moutons.org)"
+SS,2005,2013,Super Stock,Stock,verified,2005-2013 SCCA National Solo Rules §13 & App. A
+SS,2014,2014,Super Street,Street,verified,2014 SCCA National Solo Rules (Book 1 Draft A) §13 & App. A
+SS,2015,,Super Street,Street,verified,2015-2026 SCCA National Solo Rules §13 & App. A (2016: App. A)
+SSC,2018,,Solo Spec Coupe,Solo Spec Coupe,verified,2018 SCCA National Solo Rules App. B §II; 2019-2026 §20
+SSM,2009,2009,Super Street Mod,Street Modified,verified,"2009 SCCA National Solo Rules §16.B ('Super Street Mod (SSM)', former SM2)"
+SSM,2010,,Super Street Modified,Street Modified,verified,2010-2026 SCCA National Solo Rules §16 & App. A (2019-2026: §16 class list)
+SSP,2012,,Super Street Prepared,Street Prepared,verified,2012-2026 SCCA National Solo Rules App. A (2019-2026: §15 class list)
+SSR,2014,2014,Super Street-R,Street R,verified,2014 SCCA National Solo Rules (Book 1 Draft A) App. A Street R Category
+SSR,2015,2018,Super Street-R,Street,verified,2015-2018 SCCA National Solo Rules App. A (Street Category)
+SSR,2019,2023,Super Street R-tire,Street,verified,2019-2023 SCCA National Solo Rules §13 class list
+SST,2022,,Super Street Touring,Street Touring,verified,2022-2026 SCCA National Solo Rules §14 class list (2023-2024 App. A: supplemental)
+ST,1999,1999,Street Touring,Street Touring,verified,"SCCA web excerpt of 1999 Solo I & II Rules App. K (scca.org via web.archive.org) ('SCCA Street Touring Class', Regional)"
+ST,2009,2011,Street Touring,Street Touring,verified,2009-2011 SCCA National Solo Rules App. A ('Street Touring Class (ST)')
+STC,2012,2014,Street Touring Compact,Street Touring,verified,2012-2014 SCCA National Solo Rules App. A
+STF,2012,2017,Street Touring FWD,Street Touring,verified,2012-2017 SCCA National Solo Rules App. A
+STH,2018,2024,Street Touring Hatchback,Street Touring,verified,2018-2024 SCCA National Solo Rules App. A (2019-2024: §14 class list)
+STP,2016,2018,Street Touring Pony Car,Street Touring,verified,2016-2018 SCCA National Solo Rules App. A
+STR,1999,1999,Street Touring R,Street Touring,unverified,carried from 2000 (SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org)); 1999 rules (App. K) define only a single ST class
+STR,2000,2000,Street Touring R,Street Touring,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Street Touring R (STR)')
+STR,2001,2001,Street Touring R,Street Touring,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (category text: classes STS and STR)
+STR,2010,2011,Street Touring R,Street Touring,verified,2010-2011 SCCA National Solo Rules App. A (Supplemental Class)
+STR,2012,2024,Street Touring Roadster,Street Touring,verified,2012-2024 SCCA National Solo Rules App. A (2019-2024: §14 class list)
+STS,2000,2000,Street Touring S,Street Touring,verified,SCCA web excerpt of 2000 Solo I & II Rules (scca.org via web.archive.org) ('Street Touring S (STS)')
+STS,2001,2001,Street Touring S,Street Touring,verified,SCCA web excerpt of 2001 Solo I & II Rules App. A (scca.org via web.archive.org) (category text: classes STS and STR)
+STS,2002,2002,Street Touring S,Street Touring,verified,SCCA web excerpt of 2002 Solo I & II Rules App. A (scca.org via web.archive.org) (category text: classes STS and STR)
+STS,2003,2003,Street Touring S,Street Touring,verified,"2003 SCCA National Solo Rules §17 ('Street Touring S (STS)'; unofficial transcription, moutons.org)"
+STS,2004,2004,Street Touring S,Street Touring,unverified,"carried from 2003 (2003 SCCA National Solo Rules §17, unofficial transcription, moutons.org)"
+STS,2005,2005,Street Touring Sport,Street Touring,verified,2005 SCCA National Solo Rules §14 & §20 ('Street Touring Sport')
+STS,2006,2011,Street Touring S,Street Touring,verified,2006-2011 SCCA National Solo Rules App. A ('Street Touring Class S'); 2009 redefined (former STS2)
+STS,2012,2024,Street Touring Sport,Street Touring,verified,2012-2024 SCCA National Solo Rules App. A (2019-2024: §14 class list)
+STS2,2004,2004,Street Touring Sport 2,Street Touring,unverified,carried from 2005 (2005 SCCA National Solo Rules §20)
+STS2,2005,2005,Street Touring Sport 2,Street Touring,verified,"2005 SCCA National Solo Rules §20 ('Street Touring Sport 2 (STS2)', supplemental)"
+STS2,2006,2008,Street Touring S2,Street Touring,verified,2006-2008 SCCA National Solo Rules §14.11 & App. A ('Supplemental Class STS2' / 'Street Touring Class S2')
+STU,1999,1999,Street Touring Ultra,Street Touring,unverified,carried from 2005 (2005 SCCA National Solo Rules §20); 1999 rules (App. K) define only a single ST class
+STU,2004,2004,Street Touring Ultra,Street Touring,unverified,carried from 2005 (2005 SCCA National Solo Rules §20)
+STU,2005,2005,Street Touring Ultra,Street Touring,verified,"2005 SCCA National Solo Rules §20 ('Street Touring Ultra (STU)', supplemental)"
+STU,2006,2011,Street Touring U,Street Touring,verified,2006-2011 SCCA National Solo Rules §14 & App. A ('Supplemental Class STU' / 'Street Touring Class U')
+STU,2012,2024,Street Touring Ultra,Street Touring,verified,2012-2024 SCCA National Solo Rules App. A (2019-2024: §14 class list)
+STX,2002,2002,Street Touring X,Street Touring,unverified,"carried from 2003 (2003 SCCA National Solo Rules §17, unofficial transcription, moutons.org); SCCA 2002 web excerpt still lists only STS/STR"
+STX,2003,2003,Street Touring X,Street Touring,verified,"2003 SCCA National Solo Rules §17.11 ('Street Touring X (STX)', Regional; unofficial transcription, moutons.org)"
+STX,2004,2004,Street Touring X,Street Touring,unverified,"carried from 2003 (2003 SCCA National Solo Rules §17, unofficial transcription, moutons.org)"
+STX,2005,2005,Street Touring Xtra,Street Touring,verified,2005 SCCA National Solo Rules §14.11 & §20 ('Street Touring Xtra')
+STX,2006,2011,Street Touring X,Street Touring,verified,2006-2011 SCCA National Solo Rules §14 & App. A ('Street Touring Class X')
+STX,2012,2024,Street Touring Xtreme,Street Touring,verified,2012-2024 SCCA National Solo Rules App. A (2019-2024: §14 class list)
+T-1,1998,1998,,,unverified,no 1998 rulebook obtained; SCCA web excerpt of 1998 rules describes Street Touring only as a new single sedan concept with no T-1/T-2/T-3 designations
+T-2,1998,1998,,,unverified,no 1998 rulebook obtained; SCCA web excerpt of 1998 rules describes Street Touring only as a new single sedan concept with no T-1/T-2/T-3 designations
+T-3,1998,1998,,,unverified,no 1998 rulebook obtained; SCCA web excerpt of 1998 rules describes Street Touring only as a new single sedan concept with no T-1/T-2/T-3 designations
+XA,2023,,Xtreme Street A,Classic American Muscle / Xtreme Street,verified,2023-2025 SCCA National Solo Rules App. B; 2026 §21
+XB,2023,,Xtreme Street B,Classic American Muscle / Xtreme Street,verified,2023-2025 SCCA National Solo Rules App. B; 2026 §21
+XP,2006,,X Prepared,Prepared,verified,2006-2026 SCCA National Solo Rules App. A ('Prepared Class X'; 2019-2026: §17 class list)
+XS,2023,2023,Xtreme Street Sport,Classic American Muscle / Xtreme Street,verified,2023 SCCA National Solo Rules App. B
+XS-A,2020,2021,XS-A,Xtreme Street,unverified,carried from 2022 (2022 SCCA National Solo Rules App. B); XS not in 2020-2021 rulebooks
+XS-A,2022,2022,XS-A,Xtreme Street,verified,2022 SCCA National Solo Rules App. B Extreme Street (XS) ('Class XS-A'; no fuller name given)
+XS-B,2020,2021,XS-B,Xtreme Street,unverified,carried from 2022 (2022 SCCA National Solo Rules App. B); XS not in 2020-2021 rulebooks
+XS-B,2022,2022,XS-B,Xtreme Street,verified,2022 SCCA National Solo Rules App. B Extreme Street (XS) ('Class XS-B'; no fuller name given)
+XU,2024,,Xtreme Street Unlimited,Classic American Muscle / Xtreme Street,verified,2024-2025 SCCA National Solo Rules App. B; 2026 §21/App. A

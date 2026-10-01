@@ -1,0 +1,24 @@
+year,class,predecessor,relation,source
+2008,FJA,FJ2,derived,"2006 SCCA National Solo Rules §19: 'Formula Junior A (formerly FJ2 and FJ4)', 'Formula Junior B (formerly FJ1 and FJ3)'"
+2008,FJA,FJ4,derived,"2006 SCCA National Solo Rules §19: 'Formula Junior A (formerly FJ2 and FJ4)', 'Formula Junior B (formerly FJ1 and FJ3)'"
+2008,FJB,FJ1,derived,"2006 SCCA National Solo Rules §19: 'Formula Junior A (formerly FJ2 and FJ4)', 'Formula Junior B (formerly FJ1 and FJ3)'"
+2008,FJB,FJ3,derived,"2006 SCCA National Solo Rules §19: 'Formula Junior A (formerly FJ2 and FJ4)', 'Formula Junior B (formerly FJ1 and FJ3)'"
+2009,SSM,SM2,renamed,solotime rtp2009 label 'SSM (SM2)'; 2010 SCCA National Solo Rules 'SUPER STREET MODIFIED (FORMERLY SM2)'
+2009,ST,STS,renamed,solotime rtp2009 label 'ST (STS)'; 2010 SCCA National Solo Rules 'STREET TOURING (FORMERLY STS)'
+2009,STS,STS2,renamed,solotime rtp2009 label 'STS (STS2)'; 2010 SCCA National Solo Rules 'STREET TOURING SPORT (FORMERLY STS2)'
+2014,ASR,AS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'; Awards appendix 'A Street-R (ASR) (formerly A Stock - AS)'
+2014,BSR,BS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'
+2014,CSR,CS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'
+2014,DSR,DS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'
+2014,ESR,ES,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'; Awards appendix 'E Street-R (ESR) (formerly E Stock - ES)'
+2014,FSR,FS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'
+2014,GSR,GS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'
+2014,HSR,HS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'
+2014,SSR,SS,renamed,SCCA 2013-10-11 'Board of Directors approves Street Category proposal': 'All 2013 Stock classes will become Street-R (SR) classes'; Awards appendix 'Super Street-R (SSR) (formerly Super Stock - SS)'
+2023,EVX,EV,renamed,SCCA 2021 Solo Electric Vehicle Class Rules and 2022 SCCA National Solo Rules App. B define the class as 'Electric Vehicle Experimental (EVX)'; solotime labeled it EV until 2022
+2025,AST,STR,derived,solotime rtp2025 label 'AST(STR)'; 2025 SCCA National Solo Rules §14 Street Touring restructure (cars redistributed; https://trscca.org/news/2025-scca-street-touring-category); ND MX-5 moved from STR to AST
+2025,BST,STU,derived,solotime rtp2025 label 'BST(STU)'; 2025 SCCA National Solo Rules §14 Street Touring restructure (cars redistributed; https://trscca.org/news/2025-scca-street-touring-category)
+2025,CST,STR,derived,2025 SCCA National Solo Rules §14 Street Touring restructure; most STR cars moved to CST (https://trscca.org/news/2025-scca-street-touring-category)
+2025,DST,STX,derived,solotime rtp2025 label 'DST(STX)'; 2025 SCCA National Solo Rules §14 Street Touring restructure (cars redistributed; https://trscca.org/news/2025-scca-street-touring-category)
+2025,EST,STS,derived,solotime rtp2025 label 'EST(STS)'; 2025 SCCA National Solo Rules §14 Street Touring restructure (cars redistributed; https://trscca.org/news/2025-scca-street-touring-category)
+2025,GST,STH,derived,solotime rtp2025 label 'GST(STH)'; 2025 SCCA National Solo Rules §14 Street Touring restructure (cars redistributed; https://trscca.org/news/2025-scca-street-touring-category)

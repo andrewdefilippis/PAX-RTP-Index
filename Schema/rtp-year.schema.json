@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/andrewdefilippis/PAX-RTP-Index/master/Schema/rtp-year.schema.json",
+  "title": "PAX/RTP indices for one year",
+  "description": "Shape of JSON/<year>.json and JSON/latest.json: a single year key mapping class codes to their index.",
+  "type": "object",
+  "minProperties": 1,
+  "maxProperties": 1,
+  "propertyNames": { "$ref": "#/$defs/year" },
+  "additionalProperties": {
+    "type": "object",
+    "minProperties": 1,
+    "propertyNames": { "$ref": "#/$defs/classCode" },
+    "additionalProperties": { "$ref": "#/$defs/index" }
+  },
+  "$defs": {
+    "year": { "type": "string", "pattern": "^[0-9]{4}$" },
+    "classCode": { "type": "string", "pattern": "^[A-Z0-9][A-Za-z0-9-]{0,7}$" },
+    "index": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 }
+  }
+}
