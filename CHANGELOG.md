@@ -11,7 +11,7 @@ The data is now maintained in `CSV/`, and every JSON/YAML file is generated from
   * `SoloCategory` moved inside each year, because SCCA categories change over time. Categories now follow the names in that year's SCCA National Solo Rules where a source exists; `ClassificationVerified` says whether it does.
   * Added `Name`, `ClassificationVerified`, `Predecessors`, `Successors`, and top-level `Years` (source URL, page "Last update" date, retrieval time).
   * `Name` and `SoloCategory` are `null` for the few early classes no source names (T-1/T-2/T-3 in 1998, FJr, SFJr).
-* 2025 class keys in `JSON/2025.json` / `YAML/2025.yaml` changed from `AST(STR)`, `BST(STU)`, `DST(STX)`, `EST(STS)`, `GST(STH)` to `AST`, `BST`, `DST`, `EST`, `GST`. The parenthesized former class is now recorded as lineage.
+* 2025 and 2026 class keys in `JSON/<year>.json` / `YAML/<year>.yaml` changed from `AST(STR)`, `BST(STU)`, `DST(STX)`, `EST(STS)`, `GST(STH)` to `AST`, `BST`, `DST`, `EST`, `GST`. The parenthesized former class is now recorded as lineage.
 * The top-level year key in `YAML/<year>.yaml` is now a string (`'2025':`) instead of an integer, matching the JSON files.
 
 ### Data corrections
